@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="21" height="15" viewBox="0 0 21 15">
+  <g id="arrow" transform="translate(21 15) rotate(180)">
+    <path id="Arrow_Right_Black" data-name="Arrow Right Black" d="M14.061,0l-.913,1.1s3.835,3.971,5.478,5.515C12.86,6.556,0,6.618,0,6.618V7.941s12.864-.048,18.626,0c-1.643,1.765-5.478,5.735-5.478,5.735L14.061,15,21,7.279Z" transform="translate(0 0)" fill="#3cb46e"/>
+  </g>
+</svg>

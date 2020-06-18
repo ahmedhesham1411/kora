@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<color name="colorPrimary">#008577</color>
+<color name="colorPrimaryDark">#306045</color>
+<color name="colorAccent">#D81B60</color>
+<color name="white">#ffffff</color>
+<color name="black">#000000</color>
+<color name="light_gray">#EBEBEB</color>
+<color name="gray">#707070</color>
+<color name="dark_gray">#cccccc</color>
+<color name="yelow">#FFCB27</color>
+<color name="blue">#46B7EE</color>
+<color name="dddddd">#693902</color>
+<color name="darkBlue">#001272</color>
+<color name="login_btn">#3BB46E</color>
+    <color name="zzzz">#EEEEEE</color>
+
+    <color name="ddd">#51956F</color>
+    <color name="light_grayy">#80CCCCCC</color>
+    <color name="back">#E7E6E6</color>
+
+</resources>

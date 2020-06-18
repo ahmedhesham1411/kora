@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Tertan</string>
+    <string name="my_text">This is an <u>underline</u>.</string>
+    <string name="forget_password">Forget password</string>
+    <string name="enter_your_email_and_will_send_you_instructions_on_how_to_reset_it">Enter your email and will send you instructions on how to reset it</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="free_internet_wifi">Free Internet (WiFi)</string>
+    <string name="benches">Benches</string>
+    <string name="restaurant">Restaurant</string>
+    <string name="balls">Balls</string>
+    <string name="wash_praying_room"><![CDATA[Wash & Praying Room]]></string>
+    <string name="bar_lounge">Bar/Lounge</string>
+    <string name="wifi">Wifi</string>
+    <string name="facebook_app_id">226306562039331</string>
+    <string name="fb_login_protocol_scheme">fb226306562039331</string>
+    <string name="your_string_here">
+        This is an <u>underline</u>.
+    </string>
+</resources>

@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:card_view="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/item_layout"
+    android:layoutDirection="ltr">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="@dimen/_280sdp"
+        android:layout_height="@dimen/_225sdp"
+        android:layout_gravity="center"
+        android:layout_margin="@dimen/_10sdp"
+        app:cardElevation="0dp"
+        app:cardBackgroundColor="@android:color/transparent"
+        android:background="@drawable/stadium_shape"
+        >
+
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:background="@drawable/stadium_shape"
+            android:visibility="visible">
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/ball"
+                android:scaleType="fitXY"
+                android:layout_margin="@dimen/_10sdp"
+                android:visibility="gone"/>
+
+            <androidx.appcompat.widget.LinearLayoutCompat
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:padding="@dimen/_10sdp"
+                android:visibility="visible">
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:layout_width="@dimen/_260sdp"
+                android:layout_height="@dimen/_140sdp"
+                android:src="@drawable/stadium1"
+                android:scaleType="fitXY"
+                android:layout_gravity="center"
+                android:background="@drawable/image_shape"
+                android:id="@+id/myimg"
+                />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_10sdp"/>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="@dimen/_25sdp"
+                        android:text="Sport El Arab"
+                        android:textColor="@color/login_btn"
+                        android:textSize="@dimen/_18ssp"
+                        android:id="@+id/stadium_name"
+                        android:layout_marginStart="@dimen/_10sdp"
+                        card_view:ignore="RtlCompat"
+                        android:gravity="center"
+                        android:layout_alignParentStart="true"
+                        />
+
+                    <RatingBar
+                        android:id="@+id/rate"
+                        style="?android:attr/ratingBarStyleSmall"
+                        android:rating="5.0"
+                        android:stepSize="0.5"
+                        android:numStars="5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:theme="@style/CustomRatingBar"
+                        android:layout_centerVertical="true"
+                        android:layout_alignParentEnd="true"
+                        card_view:ignore="RtlCompat"
+                        android:layout_marginEnd="@dimen/_10sdp"/>
+
+                </RelativeLayout>
+
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_10sdp"/>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="6 of october city"
+                        android:textColor="@color/login_btn"
+                        android:textSize="@dimen/_12ssp"
+                        android:id="@+id/stadium_adress"
+                        android:layout_marginStart="@dimen/_10sdp"
+                        card_view:ignore="RtlCompat"
+                        />
+
+                </RelativeLayout>
+
+            </androidx.appcompat.widget.LinearLayoutCompat>
+        </FrameLayout>
+    </androidx.cardview.widget.CardView>
+</androidx.appcompat.widget.LinearLayoutCompat>
